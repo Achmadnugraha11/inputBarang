@@ -13,8 +13,8 @@ function showBarang() {
         const btnHapus = "<button class='btn btn-danger btn-sm' onclick='deleteBarang(" + i + ")''>Hapus</button>";
 
         listBarang.innerHTML += "<li>" + "<hr>" + dataBarang[i] + " " + btnEdit + " " + btnHapus + "</li>";
+        }
     }
-}
 
 // tambah barang
 function addBarang() {
